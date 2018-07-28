@@ -1,9 +1,10 @@
-sizes = ["","","","","","",""]
+num = int(input("how many?: "))
+sizes = []
 from  random import randint
 l = len(sizes)
 c = 0
-for i in range (l):
-    sizes[i] = randint(1, 500)
+for i in range (num):
+    sizes.append(randint(1, 500))
 
 print("hello, my name is Fuc, these are my sheep sizes")
 print(*sizes, sep = " ")
@@ -69,7 +70,7 @@ print()
 print("After shearing, here is my flock")
 print(*sizes, sep = ", ")
 print()
-
+l= len(sizes)
 s = 0
 for i in range (l):
     s = s + sizes[i]
