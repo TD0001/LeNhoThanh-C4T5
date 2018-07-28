@@ -1,7 +1,6 @@
 from turtle import *
 colors = ['red', 'blue', 'brown', 'yellow', 'grey']
 c = 1
-
 for i in range (5):
     color(colors[c-1])
     c = c + 1
