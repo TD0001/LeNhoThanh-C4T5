@@ -24,6 +24,7 @@ for i in range (l):
 print("Month 1:")
 print("One month has passed, now here is my flock")
 print(*sizes, sep = ", ")
+max=0
 for i in range (l):
     if max < sizes[i]:
         max = sizes[i]
@@ -39,6 +40,7 @@ for i in range (l):
     sizes[i] +=50
 print("Month 2:")
 print("One month has passed, now here is my flock")
+max=0
 print(*sizes, sep = ", ")
 for i in range (l):
     if max < sizes[i]:
@@ -56,6 +58,7 @@ for i in range (l):
 print("Month 3:")
 print("One month has passed, now here is my flock")
 print(*sizes, sep = ", ")
+max=0
 for i in range (l):
     if max < sizes[i]:
         max = sizes[i]
